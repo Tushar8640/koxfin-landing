@@ -1,7 +1,12 @@
+
+import Navbar from "./components/shared/Navbar";
+import Home from "./pages/Home";
+
 function App() {
   return (
     <>
-      <h1 className="bg-red-500">Hello world</h1>
+      <Navbar />
+      <Home />
     </>
   );
 }

@@ -1,5 +1,6 @@
 /* eslint-disable react/no-unescaped-entities */
 export default function UseCase() {
+  //
   return (
     <section className=" ">
       <div className="container  mx-auto px-[40px]">

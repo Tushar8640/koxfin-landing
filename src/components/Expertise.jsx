@@ -1,7 +1,7 @@
 /* eslint-disable react/no-unescaped-entities */
 export default function Expertise() {
   return (
-    <section className="bg-bg_black">
+    <section className="bg-bg_black mt-[-10px]">
       <div className="container px-5 py-24 mx-auto">
         <div className=" px-5  mx-auto bg-bg_black upper-section">
           <div className="flex flex-wrap  ">

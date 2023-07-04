@@ -9,13 +9,13 @@ export default function Expertise() {
               <span className="text-text_small text-[20px] font-normal">
                 OUR EXPERTISE
               </span>
-              <h2 className=" my-[30px] text-[40px]  font-light  text-brick ">
+              <h2 className=" my-[30px] lg:text-[35px] xl:[40px]  font-light  text-brick ">
                 Our goal is to help users <br /> develop a strong liking for{" "}
                 <br /> your products.
               </h2>
             </div>
             <div className="px-10 md:w-1/2 flex flex-col items-start justify-center">
-              <p className="w-[683px] text-[18px]  font-light text-text_small">
+              <p className="max-w-[683px] text-[18px]  font-light text-text_small">
                 At Koxfin, we offer personalized solutions that encompass the
                 entire life cycle of your digital product, starting from
                 conceptualization and research, through design and development,

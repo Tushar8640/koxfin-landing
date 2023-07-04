@@ -12,32 +12,32 @@ const Brand = () => {
                 <SingleImage
                   href="#"
                   Alt="Brand Image"
-                  imgSrc="/public/images/Airbnb Logo.svg"
+                  imgSrc="../../public/images/Airbnb Logo.svg"
                 />
                 <SingleImage
                   href="#"
                   Alt="Brand Image"
-                  imgSrc="/public/images/Hubspot Logo.svg"
+                  imgSrc="../../public/images/Hubspot Logo.svg"
                 />
                 <SingleImage
                   href="#"
                   Alt="Brand Image"
-                  imgSrc="/public/images/Google Logo.svg"
+                  imgSrc="../../public/images/Google Logo.svg"
                 />
                 <SingleImage
                   href="#"
                   Alt="Brand Image"
-                  imgSrc="/public/images/Microsoft Logo.svg"
+                  imgSrc="../../public/images/Microsoft Logo.svg"
                 />
                 <SingleImage
                   href="#"
                   Alt="Brand Image"
-                  imgSrc="/public/images/Walmart Logo.svg"
+                  imgSrc="../../public/images/Walmart Logo.svg"
                 />
                 <SingleImage
                   href="#"
                   Alt="Brand Image"
-                  imgSrc="/public/images/FedEx Logo.svg"
+                  imgSrc="../../public/images/FedEx Logo.svg"
                 />
               </div>
             </div>

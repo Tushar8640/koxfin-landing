@@ -32,7 +32,7 @@ export default function Expertise() {
                 <div className="w-8 h-8 mr-3 inline-flex items-center justify-center rounded-full bg-yellow-500 text-white flex-shrink-0">
                   <img
                     className="bg-[#272727] rounded-sm mt-8"
-                    src="../../public/images/Group 51.svg"
+                    src="/static/images/Group 51.svg"
                     alt=""
                   />
                 </div>
@@ -62,7 +62,7 @@ export default function Expertise() {
                 <div className="w-8 h-8 mr-3 inline-flex items-center justify-center rounded-full bg-yellow-500 text-white flex-shrink-0">
                   <img
                     className="bg-[#272727] rounded-sm mt-8"
-                    src="../../public/images/Group 50.svg"
+                    src="/static/images/Group 50.svg"
                     alt=""
                   />
                 </div>
@@ -95,7 +95,7 @@ export default function Expertise() {
                 <div className="w-8 h-8 mr-3 inline-flex items-center justify-center rounded-full bg-yellow-500 text-white flex-shrink-0">
                   <img
                     className="bg-[#272727] rounded-sm mt-8"
-                    src="../../public/images/Group 50.svg"
+                    src="/static/images/Group 50.svg"
                     alt=""
                   />
                 </div>

@@ -22,7 +22,7 @@ export default function UseCase() {
             <img className="w-[50px] mt-10" src="/public/images/right.svg" alt="" />
           </div>
           <div className=" md:w-1/2 flex flex-col items-start">
-            <img src="../../public/images/usecase.png" alt="" />
+            <img src="/static/images/usecase.png" alt="" />
           </div>
         </div>
       </div>

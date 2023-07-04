@@ -9,13 +9,11 @@ export default function Home() {
   return (
     <>
       <div className="bg-gradient">
-       
-          <HeroSection />
-          <UseCase />
-       
-       
+        <HeroSection />
+        <UseCase />
+        <Brand />
       </div>
-      <Brand />
+
       <Expertise />
     </>
   );

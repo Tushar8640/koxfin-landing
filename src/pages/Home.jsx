@@ -7,11 +7,16 @@ import UseCase from "../components/UseCase";
 
 export default function Home() {
   return (
-    <div>
-      <HeroSection />
-      <UseCase />
+    <>
+      <div className="bg-gradient">
+       
+          <HeroSection />
+          <UseCase />
+       
+       
+      </div>
       <Brand />
       <Expertise />
-    </div>
+    </>
   );
 }

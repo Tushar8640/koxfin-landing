@@ -1,3 +1,46 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+.custom-btn {
+  width: 225px;
+  height: 64px;
+  border-radius: 100px;
+  background: #171717;
+  color: #eaeaec;
+  font-size: 20px;
+  box-shadow: -8px 29px 23px 0px rgba(56, 23, 18, 0.63);
+}
+.custom-btn_outline {
+  width: 225px;
+  height: 64px;
+  border-radius: 100px;
+  background: transparent;
+  color: #eaeaec;
+  font-size: 20px;
+  border-radius: 100px;
+  border: 1px solid #fc5f45;
+}
+
+.bg-gradient {
+  background: radial-gradient(
+    circle at -15% 52%,
+    #884034 0%,
+    #272727 27%,
+    #272727 100%
+  );
+}
+
+.line-gradient {
+  top: 60px;
+  right: -200px;
+  position: absolute;
+  border-radius: 200px;
+  background: linear-gradient( 90deg, #272727 0%, rgba(39, 39, 39, 0) 31.63%, rgba(252, 95, 69, 0.75) 100% );
+  transform: rotate(140deg);
+  width: 901px;
+  height: 200px;
+}

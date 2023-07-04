@@ -1,30 +1,19 @@
 export default function Navbar() {
   return (
-    <div>
+    <div className="bg-bg_gray z-10">
       <header className="text-gray-600 body-font">
         <div className="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
           <a className="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              fill="none"
-              stroke="currentColor"
-              strokeLinecap="round"
-              strokeLinejoin="round"
-              strokeWidth="2"
-              className="w-10 h-10 text-white p-2 bg-yellow-500 rounded-full"
-              viewBox="0 0 24 24"
-            >
-              <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
-            </svg>
-            <span className="ml-3 text-xl">Tailblocks</span>
+            <img src="/public/images/logo.png" alt="" />
           </a>
           <nav className="md:ml-auto md:mr-auto flex flex-wrap items-center text-base justify-center">
-            <a className="mr-5 hover:text-gray-900">First Link</a>
-            <a className="mr-5 hover:text-gray-900">Second Link</a>
-            <a className="mr-5 hover:text-gray-900">Third Link</a>
-            <a className="mr-5 hover:text-gray-900">Fourth Link</a>
+            <a className="mr-[50px] text-[#EAEAEC]">Products</a>
+            <a className="mr-[50px] text-[#EAEAEC]">Solutions</a>
+            <a className="mr-[50px] text-[#EAEAEC]">consulting</a>
+            <a className="mr-[50px] text-[#EAEAEC]">Careers</a>
+            <a className=" text-[#EAEAEC]">Contact</a>
           </nav>
-          <div className="flex items-center md:space-x-4">
+          <div className="flex items-center md:space-x-4 relative">
             <button
               type="submit"
               title="Search"
@@ -36,7 +25,7 @@ export default function Navbar() {
                 viewBox="0 0 24 24"
                 strokeWidth={1.5}
                 stroke="currentColor"
-                className="w-6 h-6"
+                className="w-6 h-6 text-[#fff] rotate-90"
               >
                 <path
                   strokeLinecap="round"
@@ -46,12 +35,7 @@ export default function Navbar() {
               </svg>
             </button>
 
-            <button
-              type="button"
-              className="hidden px-6 py-2 font-semibold rounded lg:block bg-blue-600 text-gray-50"
-            >
-              Log in
-            </button>
+            <button className="text-[#FC5F45] font-semibold text-[20px]">Log in</button>
           </div>
         </div>
       </header>
